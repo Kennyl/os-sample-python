@@ -120,11 +120,11 @@ document.addEventListener("DOMContentLoaded", tts);
 </script>
 </body></html>
 '''
-    status = '200 OK'
-    response_headers = [('Content-Type', ctype),
-                        ('Content-Length', str(len(response_body)))]
-    start_response(status, response_headers)
-    return [response_body]
+    # status = '200 OK'
+    # response_headers = [('Content-Type', ctype),
+    #                     ('Content-Length', str(len(response_body)))]
+    # start_response(status, response_headers)
+    return response_body
 
 if __name__ == "__main__":
     application.run()
