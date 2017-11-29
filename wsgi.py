@@ -58,6 +58,7 @@ article p{
 </head>
 <body>
 <div style="float:left;margin:2em">
+<script>
  var monthNames = [
     "01", "02", "03",
     "04", "05", "06", "07",
